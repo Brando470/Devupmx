@@ -1,0 +1,124 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevUp</title>
+    <link rel="shortcut icon" href="img/DevUp.ico" type="image/x-icon"><!--icono-->
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+
+
+<body>
+    <header>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+        </nav>
+            <section class="textos-header">
+                <h1>Pontencia tus ventas al 100%</h1>
+                <h2>Marketing y Desarrollo Digital</h2>
+
+                <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill:rgb(255, 255, 255);"></path></svg></div>
+            </section>
+    </header>
+
+    <main class="todo"> 
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Acerca de nosotros</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="{% static '/img/DevUP.jpg' %}" alt="" class="imagen-nosotoros">
+                <div class="contenido-textos">
+                    <p>Somos una empresa encargada en crear y publicitar tu negocio de manera accesible, asi como trabajar con calidad tu página web. Nos enfocamos en las necesidades de las personas para crear la mejor experiencia a los clientes.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestros servicios</h2>
+                <div class="galeria-port">
+                    
+                  
+                    <div class="imagen-port">
+                        <img src="{% static '/img/paginas_web.jpg' %}" alt="">
+                       <div class="hover-galeria">
+                           <!-- <img src="img/clic.PNG" alt=""> -->
+                           <p>Diseño de paginas web</p>
+                       </div>
+                    </div> 
+                    <div class="imagen-port">
+                        <img src="{% static '/img/Diseño_grafico.jpg' %}" alt="">
+                       <div class="hover-galeria">
+                           <!-- <img src="img/clic.PNG" alt=""> -->
+                           <p>Diseño gráfico</p>
+                       </div>
+                    </div> 
+                    <div class="imagen-port">
+                        <img src="{% static '/img/Diseño_web.jpg' %}" alt="">
+                       <div class="hover-galeria">
+                           <!-- <img src="img/clic.PNG" alt=""> -->
+                           <p>Paginas web</p>
+                       </div>
+                    </div> 
+                    <div class="imagen-port">
+                        <img src="{% static '/img/MK.jpg' %}" alt="">
+                       <div class="hover-galeria">
+                           <!-- <img src="img/clic.PNG" alt=""> -->
+                           <p>Marketing </p>
+                       </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+<hr>
+        <h2 class="titulo">Redes</h2>
+        <div class="cards">
+            <div class="card">
+               <a href="https://www.facebook.com/"> <img src="{% static '/img/face.jpg' %} " alt=""></a>
+                 <div class="contenido-texto-card">
+                     <h3>Facebook</h3>
+                        
+                 </div>
+            </div>
+            <div class="card">
+               <a href="https://www.instagram.com/"> <img src="{% static '/img/insta.jpg' %}" alt="Insta"></a>
+                 <div class="contenido-texto-card">
+                     <h3>Instagram</h3>
+                     
+                 </div>
+                 
+            </div>
+            <div class="card">
+                <a href="https://www.tiktok.com/es"><img src="{% static '/img/tiktik.jpg' %}" alt=""></a>
+                 <div class="contenido-texto-card">
+                     <h3>TikTok</h3>
+                     
+                 </div>
+                 
+            </div>
+        </div>
+    </section>
+    </main>
+
+   
+
+    <footer >
+        <h2 class="Titulo-final">&copy; DevUp</h2>
+    </footer>
+
+</body>
+</html>
+
